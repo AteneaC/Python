@@ -16,19 +16,21 @@ for a in range(1,101):
         print(a)
 
 #Whoa. Es un gran idiota
-for n in range(0,500001,3):
-    '''print()'''
+sum = 0
+for x in range(1,500001,2):
+    sum += x
+print(f"La suma final es: {sum}")
 
 #Cuenta Regresiva de 4
 count = 2018
-while count >= 0:
+while count > 0:
     print(count)
     count -= 4
 
 #Contador flexible
-LowNum = 6
-highNum = 2
-mult = 4
-for w in range (LowNum, highNum + 1)
-    if w % mult == 0:
-    print(w)
+LowNum = 2
+highNum = 9
+mult = 3
+for num in range(LowNum, highNum + 1):
+    if num % mult == 0:
+        print(num)
